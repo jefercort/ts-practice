@@ -12,4 +12,7 @@
   let mixed: (string | number | boolean | object)[] = ["Television", true];
   mixed.push(100);
 
+  let numbers: number[] = [1, 2, 3, 4, 5];
+  numbers.map((item) => item * 2);
+
 }) ();
