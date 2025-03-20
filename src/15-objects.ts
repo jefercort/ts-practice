@@ -11,9 +11,10 @@
 
   const products: Product[] = []; // Esta es la forma correcta de hacerlo
 
+  // aca estoy usando la estructura de product para recibir especficiamente un objeto de tipo product
   const addProduct = (data: Product) => {
     products.push(data);
-  }
+  };
 
   addProduct({
     title: "T-shirt",
